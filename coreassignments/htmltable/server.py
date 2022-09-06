@@ -8,7 +8,8 @@ def mainpage():
         {'first_name' : 'Michael', 'last_name' : 'Choi'},
         {'first_name' : 'John', 'last_name' : 'Supsupin'},
         {'first_name' : 'Mark', 'last_name' : 'Guillen'},
-        {'first_name' : 'KB', 'last_name' : 'Tonel'}
+        {'first_name' : 'KB', 'last_name' : 'Tonel'},
+        {'first_name' : 'Holly', 'last_name' : 'Joestar'}
     ]
     return render_template('mainpage.html', users = users)
 
